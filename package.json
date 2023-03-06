@@ -1,0 +1,29 @@
+{
+  "name": "{{ 在线教育商城前端系统 }}",
+  "version": "v1.0.0",
+  "description": "{{ 描述：在线教育商城前端系统 }}",
+  "author": "{{ wyj_program@163.com }}",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "nuxt": "^2.0.0",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "swiper": "^5.2.0",
+    "vue-awesome-swiper": "^4.1.1"
+  }
+}
